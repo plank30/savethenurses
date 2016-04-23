@@ -1,0 +1,226 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 4,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/DocumentReference?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+    }
+  ],
+  "entry": [
+    {
+      "search": {
+        "mode": "match"
+      },
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/DocumentReference/TFmfyrs8EpbFatvGObYavhwB"
+        }
+      ],
+      "resource": {
+        "resourceType": "DocumentReference",
+        "created": "2016-02-16T00:00:00Z",
+        "indexed": "2016-02-16T00:00:00Z",
+        "status": "current",
+        "id": "TFmfyrs8EpbFatvGObYavhwB",
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "class": {
+          "text": "Summarization of Episode Note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "34133-9",
+              "display": "Summarization of Episode Note"
+            }
+          ]
+        },
+        "type": {
+          "text": "Summarization of Episode Note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "34133-9",
+              "display": "Summarization of Episode Note"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/xml",
+              "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Binary/TFmfyrs8EpbFatvGObYavhwB"
+            }
+          }
+        ],
+        "masterIdentifier": {
+          "value": "1.2.840.114350.1.13.327.1.7.8.688883.1335"
+        }
+      }
+    },
+    {
+      "search": {
+        "mode": "match"
+      },
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/DocumentReference/TgYEfGjXubEZRO69h1GkpEwB"
+        }
+      ],
+      "resource": {
+        "resourceType": "DocumentReference",
+        "created": "2016-02-17T00:00:00Z",
+        "indexed": "2016-04-20T00:00:00Z",
+        "status": "current",
+        "id": "TgYEfGjXubEZRO69h1GkpEwB",
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "class": {
+          "text": "Subsequent evaluation note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "11506-3",
+              "display": "Subsequent evaluation note"
+            }
+          ]
+        },
+        "type": {
+          "text": "Subsequent evaluation note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "11506-3",
+              "display": "Subsequent evaluation note"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/xml",
+              "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Binary/TgYEfGjXubEZRO69h1GkpEwB"
+            }
+          }
+        ],
+        "masterIdentifier": {
+          "value": "1.2.840.114350.1.13.0.1.7.8.688883.2683"
+        }
+      }
+    },
+    {
+      "search": {
+        "mode": "match"
+      },
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/DocumentReference/TvrN3h3tw2IyrxXuL1pGWlgB"
+        }
+      ],
+      "resource": {
+        "resourceType": "DocumentReference",
+        "created": "2016-01-26T00:00:00Z",
+        "indexed": "2016-04-18T00:00:00Z",
+        "status": "current",
+        "id": "TvrN3h3tw2IyrxXuL1pGWlgB",
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "class": {
+          "text": "Subsequent evaluation note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "11506-3",
+              "display": "Subsequent evaluation note"
+            }
+          ]
+        },
+        "type": {
+          "text": "Subsequent evaluation note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "11506-3",
+              "display": "Subsequent evaluation note"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/xml",
+              "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Binary/TvrN3h3tw2IyrxXuL1pGWlgB"
+            }
+          }
+        ],
+        "masterIdentifier": {
+          "value": "1.2.840.114350.1.13.0.1.7.8.688883.2666"
+        }
+      }
+    },
+    {
+      "search": {
+        "mode": "match"
+      },
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/DocumentReference/Tahuq3Ng0olH65EmIKR7StwB"
+        }
+      ],
+      "resource": {
+        "resourceType": "DocumentReference",
+        "created": "2015-08-26T00:00:00Z",
+        "indexed": "2016-04-18T00:00:00Z",
+        "status": "current",
+        "id": "Tahuq3Ng0olH65EmIKR7StwB",
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "class": {
+          "text": "Subsequent evaluation note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "11506-3",
+              "display": "Subsequent evaluation note"
+            }
+          ]
+        },
+        "type": {
+          "text": "Subsequent evaluation note",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.1",
+              "code": "11506-3",
+              "display": "Subsequent evaluation note"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/xml",
+              "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Binary/Tahuq3Ng0olH65EmIKR7StwB"
+            }
+          }
+        ],
+        "masterIdentifier": {
+          "value": "1.2.840.114350.1.13.0.1.7.8.688883.2663"
+        }
+      }
+    }
+  ]
+}
+See more   

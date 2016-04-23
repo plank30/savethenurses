@@ -1,0 +1,113 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 2,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Immunization?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Immunization/TUmTlNxD2uFE77.rcuilaBwB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "date": "2016-01-09T00:00:00Z",
+        "wasNotGiven": false,
+        "reported": true,
+        "lotNumber": "12321",
+        "id": "TUmTlNxD2uFE77.rcuilaBwB",
+        "vaccineCode": {
+          "text": "DTP-Hib-Hep B",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "102",
+              "display": "DTP-HIB-HEP B"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "note": [
+          null
+        ]
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Immunization/TfHwRVsICbE33tGGsW1GWvgB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "date": "2016-03-02T00:00:00Z",
+        "wasNotGiven": false,
+        "reported": true,
+        "id": "TfHwRVsICbE33tGGsW1GWvgB",
+        "vaccineCode": {
+          "text": "Cholera"
+        },
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "site": {
+          "text": "Left arm",
+          "coding": [
+            {
+              "system": "1.2.840.114350.1.13.0.1.7.4.768076.4040",
+              "code": "LEFT ARM",
+              "display": "Left arm"
+            }
+          ]
+        },
+        "route": {
+          "text": "Intravenous",
+          "coding": [
+            {
+              "system": "1.2.840.114350.1.13.0.1.7.4.768076.4030",
+              "code": "IV",
+              "display": "Intravenous"
+            }
+          ]
+        },
+        "note": [
+          null
+        ]
+      }
+    },
+    {
+      "search": {
+        "mode": "outcome"
+      },
+      "resource": {
+        "resourceType": "OperationOutcome",
+        "issue": [
+          {
+            "severity": "warning",
+            "code": "informational"
+          }
+        ]
+      }
+    }
+  ]
+}

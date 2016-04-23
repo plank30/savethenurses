@@ -1,0 +1,40 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Device?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Device/TCqziYTxuM-ZyuEVLm2vyvgB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Device",
+        "model": "G754-B",
+        "expiry": "2017-03-24T00:00:00Z",
+        "id": "TCqziYTxuM-ZyuEVLm2vyvgB",
+        "type": {
+          "text": "Pacemaker",
+          "coding": [
+            {
+              "system": "1.2.840.114350.1.13.0.1.7.4.737780.70",
+              "code": "Pacemaker",
+              "display": "Pacemaker"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

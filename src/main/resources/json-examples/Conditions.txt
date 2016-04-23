@@ -1,0 +1,238 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 4,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB&category=diagnosis"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Condition",
+        "dateRecorded": "2015-08-24T00:00:00Z",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2015-08-24T00:00:00Z",
+        "verificationStatus": "confirmed",
+        "id": "T1kK.xqvU20cEJe860G4aKgB",
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "Agoraphobia",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.90",
+              "code": "F40.00",
+              "display": "Agoraphobia"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "70691001",
+              "display": "Agoraphobia (disorder)"
+            }
+          ]
+        },
+        "category": {
+          "text": "Diagnosis – Health Concern",
+          "coding": [
+            {
+              "system": "http://www.loinc.org",
+              "code": "75310-3",
+              "display": "Health concerns"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            }
+          ]
+        },
+        "severity": {
+          "text": "Medium"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/ToXGIl7BNrvoF6BVybVSoawB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/ToXGIl7BNrvoF6BVybVSoawB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Condition",
+        "dateRecorded": "2015-08-24T00:00:00Z",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2015-08-24T00:00:00Z",
+        "verificationStatus": "confirmed",
+        "id": "ToXGIl7BNrvoF6BVybVSoawB",
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "Chronic cough",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.90",
+              "code": "R05",
+              "display": "Chronic cough"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "68154008",
+              "display": "Chronic cough (finding)"
+            }
+          ]
+        },
+        "category": {
+          "text": "Diagnosis – Health Concern",
+          "coding": [
+            {
+              "system": "http://www.loinc.org",
+              "code": "75310-3",
+              "display": "Health concerns"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            }
+          ]
+        },
+        "severity": {
+          "text": "Medium"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/T14QqO8NyASby4jGtzuSA6gB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/T14QqO8NyASby4jGtzuSA6gB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Condition",
+        "dateRecorded": "2015-08-24T00:00:00Z",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2015-08-24T00:00:00Z",
+        "verificationStatus": "confirmed",
+        "id": "T14QqO8NyASby4jGtzuSA6gB",
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "Asthma",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.90",
+              "code": "J45.909",
+              "display": "Asthma"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195967001",
+              "display": "Asthma (disorder)"
+            }
+          ]
+        },
+        "category": {
+          "text": "Diagnosis – Health Concern",
+          "coding": [
+            {
+              "system": "http://www.loinc.org",
+              "code": "75310-3",
+              "display": "Health concerns"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            }
+          ]
+        },
+        "severity": {
+          "text": "Low"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/TOVSAAQTrMr9e45nCzc8S5wB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/TOVSAAQTrMr9e45nCzc8S5wB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Condition",
+        "dateRecorded": "2016-02-11T00:00:00Z",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2016-02-11T00:00:00Z",
+        "verificationStatus": "confirmed",
+        "id": "TOVSAAQTrMr9e45nCzc8S5wB",
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "Hemoglobin A1c above reference range",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.90",
+              "code": "R79.89",
+              "display": "Hemoglobin A1c above reference range"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "444751005",
+              "display": "Hemoglobin A1c above reference range (finding)"
+            }
+          ]
+        },
+        "category": {
+          "text": "Diagnosis – Health Concern",
+          "coding": [
+            {
+              "system": "http://www.loinc.org",
+              "code": "75310-3",
+              "display": "Health concerns"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

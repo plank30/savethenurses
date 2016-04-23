@@ -1,0 +1,186 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 3,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TBwnNbrAqC0Qw5Ha7AFT-2AB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TBwnNbrAqC0Qw5Ha7AFT-2AB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "recordedDate": "2015-08-24T18:11:36Z",
+        "status": "confirmed",
+        "criticality": "CRITL",
+        "onset": "2012-11-07T00:00:00Z",
+        "id": "TBwnNbrAqC0Qw5Ha7AFT-2AB",
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "substance": {
+          "text": "PENICILLIN G",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "7980",
+              "display": "PENICILLIN G"
+            },
+            {
+              "system": "http://fdasis.nlm.nih.gov",
+              "code": "Q42T66VG0C",
+              "display": "PENICILLIN G"
+            }
+          ]
+        },
+        "reaction": [
+          {
+            "certainty": "confirmed",
+            "onset": "2012-11-07T00:00:00Z",
+            "manifestation": [
+              {
+                "text": "Hives"
+              }
+            ],
+            "note": {
+              "text": "Severity low enough to be prescribed if needed."
+            }
+          }
+        ],
+        "note": {
+          "text": "Severity low enough to be prescribed if needed."
+        }
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TPcWiBG2h2E114Vh0sRT8fQB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TPcWiBG2h2E114Vh0sRT8fQB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "recordedDate": "2015-11-07T14:55:10Z",
+        "status": "confirmed",
+        "criticality": "CRITL",
+        "onset": "2010-05-02T00:00:00Z",
+        "id": "TPcWiBG2h2E114Vh0sRT8fQB",
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "substance": {
+          "text": "SHELLFISH-DERIVED PRODUCTS",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ndfrt",
+              "code": "N0000007624",
+              "display": "SHELLFISH-DERIVED PRODUCTS"
+            }
+          ]
+        },
+        "reaction": [
+          {
+            "certainty": "confirmed",
+            "onset": "2010-05-02T00:00:00Z",
+            "manifestation": [
+              {
+                "text": "Itching"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TKebKfLXzu6Sp.LY-IpvpmQB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TKebKfLXzu6Sp.LY-IpvpmQB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "recordedDate": "2015-11-07T14:56:34Z",
+        "status": "confirmed",
+        "criticality": "CRITH",
+        "onset": "2014-03-07T00:00:00Z",
+        "id": "TKebKfLXzu6Sp.LY-IpvpmQB",
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "substance": {
+          "text": "STRAWBERRY",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "892484",
+              "display": "STRAWBERRY"
+            },
+            {
+              "system": "http://fdasis.nlm.nih.gov",
+              "code": "4J2TY8Y81V",
+              "display": "STRAWBERRY"
+            }
+          ]
+        },
+        "reaction": [
+          {
+            "certainty": "confirmed",
+            "onset": "2014-03-07T00:00:00Z",
+            "manifestation": [
+              {
+                "text": "Anaphylaxis"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "search": {
+        "mode": "outcome"
+      },
+      "resource": {
+        "resourceType": "OperationOutcome",
+        "issue": [
+          {
+            "severity": "information",
+            "code": "informational"
+          },
+          {
+            "severity": "information",
+            "code": "informational"
+          },
+          {
+            "severity": "information",
+            "code": "informational"
+          }
+        ]
+      }
+    }
+  ]
+}

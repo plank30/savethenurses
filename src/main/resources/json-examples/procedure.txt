@@ -1,0 +1,168 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 4,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/TZTTVmGBdCnXuR9XlzHUjcGKJ75jMQVtKfPKDm2LFpzoB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/TZTTVmGBdCnXuR9XlzHUjcGKJ75jMQVtKfPKDm2LFpzoB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "notPerformed": false,
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "CBC",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.12",
+              "code": "85027",
+              "display": "CBC"
+            }
+          ]
+        },
+        "reasonCodeableConcept": {
+          "text": "Displaced fracture of head of left radius",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.103",
+              "code": "813.05",
+              "display": "Displaced fracture of head of left radius"
+            }
+          ]
+        },
+        "performer": []
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/TERJuYE6hny6Rl0AYbCiF3vafyZFYqqqS4shSlq3m7eMB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/TERJuYE6hny6Rl0AYbCiF3vafyZFYqqqS4shSlq3m7eMB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "notPerformed": false,
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "CBC AND DIFFERENTIAL",
+          "coding": [
+            {
+              "system": "1.2.840.114350.1.13.0.1.7.2.696580",
+              "code": "1696",
+              "display": "CBC AND DIFFERENTIAL"
+            }
+          ]
+        },
+        "reasonCodeableConcept": {
+          "text": "Displaced fracture of head of left radius",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.103",
+              "code": "813.05",
+              "display": "Displaced fracture of head of left radius"
+            }
+          ]
+        },
+        "performer": []
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/T9AZfrPryilBrrFvIPCWiQwuYg6s.13SJiLEX6TYpHbQB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/T9AZfrPryilBrrFvIPCWiQwuYg6s.13SJiLEX6TYpHbQB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "notPerformed": false,
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "POTASSIUM",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.12",
+              "code": "84132",
+              "display": "POTASSIUM"
+            }
+          ]
+        },
+        "reasonCodeableConcept": {
+          "coding": []
+        },
+        "performer": []
+      }
+    },
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/TUJVsYdV2kmmgR93.Ql-Dfnj6x8mm9KUaDHVaj0Yzo9MB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Procedure/TUJVsYdV2kmmgR93.Ql-Dfnj6x8mm9KUaDHVaj0Yzo9MB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "notPerformed": false,
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "code": {
+          "text": "COMPREHENSIVE METABOLIC PANEL",
+          "coding": [
+            {
+              "system": "1.2.840.114350.1.13.0.1.7.2.696580",
+              "code": "682",
+              "display": "COMPREHENSIVE METABOLIC PANEL"
+            }
+          ]
+        },
+        "reasonCodeableConcept": {
+          "coding": []
+        },
+        "performer": []
+      }
+    }
+  ]
+}
+See more   

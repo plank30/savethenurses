@@ -1,0 +1,240 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/CarePlan?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/CarePlan/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/CarePlan/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB",
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          },
+          {
+            "display": "Chronic cough",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/ToXGIl7BNrvoF6BVybVSoawB"
+          },
+          {
+            "display": "Asthma",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/T14QqO8NyASby4jGtzuSA6gB"
+          },
+          {
+            "display": "Halitosis",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/TDblJ7mW.ukNfxWi.0GeY1QB"
+          },
+          {
+            "display": "Hemoglobin A1c above reference range",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/TOVSAAQTrMr9e45nCzc8S5wB"
+          },
+          {
+            "display": "TB (pulmonary tuberculosis)",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/TajPohVuPYfDdU-wGcm.KMgB"
+          },
+          {
+            "display": "Zika virus disease",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/T-HzNQh62IyOLOuPFOaTtDgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c < 7.0",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          },
+          {
+            "display": "Reduce the need for your rescue inhaler to less than once each month",
+            "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Goal/TbtW9qZPjDclmbmGLLcZkRAB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "encounter",
+                "coding": [
+                  {
+                    "system": "2.16.840.1.113883.4.642.1.63",
+                    "code": "encounter",
+                    "display": "encounter"
+                  },
+                  {
+                    "system": "FHIRCarePlanDetailCategory",
+                    "code": "encounter",
+                    "display": "encounter"
+                  }
+                ]
+              },
+              "scheduledPeriod": {
+                "start": "2016-05-03T09:00:00Z",
+                "end": "2016-05-03T09:30:00Z"
+              }
+            }
+          },
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "encounter",
+                "coding": [
+                  {
+                    "system": "2.16.840.1.113883.4.642.1.63",
+                    "code": "encounter",
+                    "display": "encounter"
+                  },
+                  {
+                    "system": "FHIRCarePlanDetailCategory",
+                    "code": "encounter",
+                    "display": "encounter"
+                  }
+                ]
+              },
+              "scheduledPeriod": {
+                "start": "2016-05-03T13:00:00Z",
+                "end": "2016-05-03T13:30:00Z"
+              }
+            }
+          },
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "encounter",
+                "coding": [
+                  {
+                    "system": "2.16.840.1.113883.4.642.1.63",
+                    "code": "encounter",
+                    "display": "encounter"
+                  },
+                  {
+                    "system": "FHIRCarePlanDetailCategory",
+                    "code": "encounter",
+                    "display": "encounter"
+                  }
+                ]
+              },
+              "scheduledPeriod": {
+                "start": "2016-05-03T13:30:00Z",
+                "end": "2016-05-03T14:00:00Z"
+              }
+            }
+          },
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "2.16.840.1.113883.4.642.1.63",
+                    "code": "procedure",
+                    "display": "procedure"
+                  },
+                  {
+                    "system": "FHIRCarePlanDetailCategory",
+                    "code": "upcomingorder",
+                    "display": "procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "COMPREHENSIVE METABOLIC PANEL"
+              },
+              "scheduledPeriod": {
+                "start": "2173-09-27T00:00:00Z",
+                "end": "2173-09-27T00:00:00Z"
+              }
+            }
+          },
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "2.16.840.1.113883.4.642.1.63",
+                    "code": "procedure",
+                    "display": "procedure"
+                  },
+                  {
+                    "system": "FHIRCarePlanDetailCategory",
+                    "code": "upcomingorder",
+                    "display": "procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC"
+              },
+              "scheduledPeriod": {
+                "start": "2173-09-27T00:00:00Z",
+                "end": "2173-09-27T00:00:00Z"
+              }
+            }
+          },
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "2.16.840.1.113883.4.642.1.63",
+                    "code": "procedure",
+                    "display": "procedure"
+                  },
+                  {
+                    "system": "FHIRCarePlanDetailCategory",
+                    "code": "upcomingorder",
+                    "display": "procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "HEMOGLOBIN A1C"
+              },
+              "scheduledPeriod": {
+                "start": "2173-09-27T00:00:00Z",
+                "end": "2173-09-27T00:00:00Z"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "2.16.840.1.113883.6.96",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

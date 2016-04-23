@@ -1,0 +1,119 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 3,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/FamilyMemberHistory?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+    }
+  ],
+  "entry": [
+    {
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "FamilyMemberHistory",
+        "date": "2015-08-27T00:00:00Z",
+        "name": "Hera",
+        "deceasedBoolean": false,
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "relationship": {
+          "text": "Mother",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/familial-relationship",
+              "code": "MTH",
+              "display": "Mother"
+            }
+          ]
+        },
+        "condition": [
+          {
+            "code": {
+              "text": "Abnormal EKG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "FamilyMemberHistory",
+        "date": "2015-08-27T00:00:00Z",
+        "name": "Zeus",
+        "deceasedBoolean": false,
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "relationship": {
+          "text": "Father",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/familial-relationship",
+              "code": "FTH",
+              "display": "Father"
+            }
+          ]
+        },
+        "condition": [
+          {
+            "code": {
+              "text": "Allergy (severe)"
+            },
+            "note": {
+              "text": "Allergic to Golden Fleece"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "FamilyMemberHistory",
+        "date": "2015-08-27T00:00:00Z",
+        "name": "Athena",
+        "deceasedBoolean": false,
+        "patient": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        },
+        "relationship": {
+          "text": "Sister",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/familial-relationship",
+              "code": "SIS",
+              "display": "Sister"
+            }
+          ]
+        },
+        "condition": [
+          {
+            "code": {
+              "text": "NONE KNOWN",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "19047",
+                  "display": "NONE KNOWN"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 3,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Observation?_app=FHIR&_ver=DSTU2&patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB&code=8310-5"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Observation/Tnf7t0.SP6znu2Dc1kPsron.8Qlu-yjOF792bUBX3SIaQJGyra2L5zcm1TD.wR0aXB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "effectiveDateTime": "2016-04-19T15:02:00Z",
+        "status": "final",
+        "id": "Tnf7t0.SP6znu2Dc1kPsron.8Qlu-yjOF792bUBX3SIaQJGyra2L5zcm1TD.wR0aXB",
+        "code": {
+          "text": "Body temperature",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 37,
+          "unit": "Cel",
+          "code": "Cel",
+          "system": "http://unitsofmeasure.org"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        }
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Observation/Tnf7t0.SP6znu2Dc1kPsroonALFGbtOt6b2yu6wZ4ivSS.3GYsjNB3ArqR6ELcX1HB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "effectiveDateTime": "2015-08-26T22:00:00Z",
+        "status": "final",
+        "id": "Tnf7t0.SP6znu2Dc1kPsroonALFGbtOt6b2yu6wZ4ivSS.3GYsjNB3ArqR6ELcX1HB",
+        "code": {
+          "text": "Body temperature",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 36.7,
+          "unit": "Cel",
+          "code": "Cel",
+          "system": "http://unitsofmeasure.org"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        }
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Observation/Tnf7t0.SP6znu2Dc1kPsrog5qrfqH33vJQOxAByVedwArxrnlSzMnw7faw33CU7gqB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "effectiveDateTime": "2015-08-25T22:46:00Z",
+        "status": "final",
+        "id": "Tnf7t0.SP6znu2Dc1kPsrog5qrfqH33vJQOxAByVedwArxrnlSzMnw7faw33CU7gqB",
+        "code": {
+          "text": "Body temperature",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 36.7,
+          "unit": "Cel",
+          "code": "Cel",
+          "system": "http://unitsofmeasure.org"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+        }
+      }
+    }
+  ]
+}

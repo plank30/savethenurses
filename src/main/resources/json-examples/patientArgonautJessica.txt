@@ -1,0 +1,75 @@
+$ curl "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient?family=Argonaut&given=Jessica"
+"id": "TUKRxL29bxE9lyAcdTIyrWC6Ln5gZ-z7CLr2r-2SY964B",
+
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition?_app=FHIR&_ver=DSTU2&patient=TUKRxL29bxE9lyAcdTIyrWC6Ln5gZ-z7CLr2r-2SY964B&category=diagnosis"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/Tt4fNWwh8ZM2zgwSBoCYVuAB",
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Condition/Tt4fNWwh8ZM2zgwSBoCYVuAB"
+        }
+      ],
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Condition",
+        "dateRecorded": "2015-11-07T00:00:00Z",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2015-11-07T00:00:00Z",
+        "verificationStatus": "confirmed",
+        "id": "Tt4fNWwh8ZM2zgwSBoCYVuAB",
+        "patient": {
+          "display": "Jessica Argonaut",
+          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/TUKRxL29bxE9lyAcdTIyrWC6Ln5gZ-z7CLr2r-2SY964B"
+        },
+        "code": {
+          "text": "Dog bite",
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.6.90",
+              "code": "W54.0XXA",
+              "display": "Dog bite"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "283734005",
+              "display": "Dog bite - wound (disorder)"
+            }
+          ]
+        },
+        "category": {
+          "text": "Diagnosis – Health Concern",
+          "coding": [
+            {
+              "system": "http://www.loinc.org",
+              "code": "75310-3",
+              "display": "Health concerns"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            }
+          ]
+        },
+        "severity": {
+          "text": "Medium"
+        }
+      }
+    }
+  ]
+}
+
+
