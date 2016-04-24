@@ -26,13 +26,13 @@
 <body>
   <div class="patient-data-1">
     <div class="pd-col1">
-      <h2 class="header">Jason Argonaut</h2>
-      <p class="patient-id">patient id</p>
+      <h2 class="header">${firstName} ${lastName}</h2>
+      <p class="patient-id">${patientId1} - ${patientId2}</p>
     </div>
     <div class="pd-col2">
-      <p>1979 Milky Way Dr, Verona WI, 53593</p>
-      <p>608-271-9000</p>
-      <p>01/08/1985</p>
+      <p>${addressLine} ${addressCity} ${addressState}, ${addressZip}</p>
+      <p>${phone}</p>
+      <p>${dob}</p>
     </div>
   </div>
   
